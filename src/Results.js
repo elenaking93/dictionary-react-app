@@ -4,7 +4,6 @@ import Phonetic from "./Phonetic";
 
 export default function Results(props) {
   if (props.results) {
-    console.log(props.results);
     return (
       <div className="Results">
         <div className="card border-secondary mb-3 p-3 shadow bg-body-tertiary rounded">
