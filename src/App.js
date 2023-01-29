@@ -15,7 +15,16 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="victory" />
         </main>
-        <footer className="App-footer">Coded by Olena Korol</footer>
+        <footer className="App-footer">
+          <a
+            href="https://github.com/elenaking93/dictionary-react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          {""} by Elena Korol
+        </footer>
       </div>
     </div>
   );
