@@ -23,7 +23,7 @@ export default function App() {
           >
             Open-source code
           </a>
-          {""} by Elena Korol
+          {""} by Olena Korol
         </footer>
       </div>
     </div>
