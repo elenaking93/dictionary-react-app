@@ -7,12 +7,13 @@ export default function Results(props) {
     console.log(props.results);
     return (
       <div className="Results">
-        <div className="card border-secondary mb-3 p-3">
+        <div className="card border-secondary mb-3 p-3 shadow bg-body-tertiary rounded">
           <h1 className="card-title">{props.results.word}</h1>
           {props.results.phonetics.map(function (phonetic, index) {
             return (
               <div key={index}>
                 <Phonetic phonetic={phonetic} />
+                <br />
               </div>
             );
           })}{" "}

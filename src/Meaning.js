@@ -4,7 +4,7 @@ import Synonyms from "./Synonyms.js";
 export default function Meaning(props) {
   return (
     <div className="Meaning">
-      <div className="card border-warning mb-3 p-3">
+      <div className="card border-warning mb-3 p-3 shadow bg-body-tertiary rounded">
         <h3 className="card-title">{props.meaning.partOfSpeech}</h3>
         <Synonyms synonyms={props.meaning.synonyms} />
         {props.meaning.definitions.map(function (definition, index) {
@@ -14,7 +14,6 @@ export default function Meaning(props) {
                 <strong>Definition:</strong>
                 {definition.definition}
                 <br />
-                <strong>Example:</strong>
                 <em>{definition.example}</em>
               </p>
             </div>
